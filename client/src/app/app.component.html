@@ -1,0 +1,10 @@
+<h1>{{title}}</h1>
+
+<ul>
+  <!--
+    -- Properties in Angular are case sensitive
+    -- Strucutural directive - modifies the DOM in the html
+    -->
+    
+  <li *ngFor='let user of users'>{{user.id}} - {{user.userName}}</li>
+</ul>
